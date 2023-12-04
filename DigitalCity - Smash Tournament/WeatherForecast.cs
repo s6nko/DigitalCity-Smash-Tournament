@@ -1,4 +1,4 @@
-namespace DigitalCity___Smash_Tournament
+namespace ST_API
 {
     public class WeatherForecast
     {

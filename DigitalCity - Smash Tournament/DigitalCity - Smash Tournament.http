@@ -1,6 +1,6 @@
-@DigitalCity___Smash_Tournament_HostAddress = http://localhost:5273
+@ST_API_HostAddress = http://localhost:5273
 
-GET {{DigitalCity___Smash_Tournament_HostAddress}}/weatherforecast/
+GET {{ST_API_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

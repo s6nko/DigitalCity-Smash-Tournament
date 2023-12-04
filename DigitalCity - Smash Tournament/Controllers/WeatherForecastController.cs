@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace DigitalCity___Smash_Tournament.Controllers
+namespace ST_API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
