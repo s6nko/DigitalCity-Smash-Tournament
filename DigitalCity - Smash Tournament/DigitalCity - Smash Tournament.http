@@ -1,0 +1,6 @@
+@DigitalCity___Smash_Tournament_HostAddress = http://localhost:5273
+
+GET {{DigitalCity___Smash_Tournament_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
