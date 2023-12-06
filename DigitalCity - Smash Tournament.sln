@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ST_API", "DigitalCity - Smash Tournament\ST_API.csproj", "{8B5ABE1C-6829-4285-8F5F-8AACC661D548}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ST_API", "ST_API\ST_API.csproj", "{8B5ABE1C-6829-4285-8F5F-8AACC661D548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ST_BLL", "DigitalCity - Smash Tournament - BLL\ST_BLL.csproj", "{CC3769CC-C766-4542-9EA0-204938FCAD85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ST_BLL", "ST_BLL\ST_BLL.csproj", "{CC3769CC-C766-4542-9EA0-204938FCAD85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ST_DAL", "DigitalCity - Smash Tournament - DAL\ST_DAL.csproj", "{571CF733-55AF-4567-A9E8-BF271E020C09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ST_DAL", "ST_DAL\ST_DAL.csproj", "{571CF733-55AF-4567-A9E8-BF271E020C09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
