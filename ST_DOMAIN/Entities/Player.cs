@@ -10,17 +10,19 @@ using ST_DOMAIN.Enums;
 
 namespace ST_DOMAIN.Entities
 {
-    [Table("Members")]
-    internal class Member
+    [Table("Players")]
+    public class Player
     {
-        public int Id { get; set; }
+        public int PlayerId { get; set; }
         public string Nickname { get; set; } = null!;
         public string Mail { get; set; } = null!;
         public string Password { get; set; } = null!;
+
+        public Team PlayerTeam { get; set; }
         public DateTime DateOfBirth { get; set; }
-        public EGender sex;
-        public ELevel Skill;
-        public EAuthLevel AuthLevel;
-        public int Elo;
+        public EGender sex { get; set; }
+        public ELevel Skill { get; set; }
+        public EAuthLevel AuthLevel { get; set; }
+        public int Elo { get; set; }
     }
 }

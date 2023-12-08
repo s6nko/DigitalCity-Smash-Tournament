@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ST_DOMAIN.Entities
 {
-    [Table("Tournament")]
+    [Table("Tournaments")]
     public class Tournament
     {
         public int Id { get; set; }
@@ -18,12 +18,12 @@ namespace ST_DOMAIN.Entities
         public DateTime EndSignUpsDate { get; set; }
         public DateTime UpdateDate { get; set; }
         public EStatus Status { get; set; }
-        public int CurrPlayers;
-        public int MinPlayers;
-        public int MaxPlayers;
+        public int CurrTeams;
+        public int MaxTeams;
         public int MinElo;
         public int MaxElo;
-        public int CurrRound;
+        public List<Team> Teams { get; set; }
+        public List<Match> Matches { get; set; }
         public int MaxRounds;
         public EGender? GenderOnly;
     }
